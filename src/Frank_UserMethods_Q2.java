@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Frank_UserMethods_Q1 {
+public class Frank_UserMethods_Q2 {
     public static int Armstrong(int n){
-        int copy=n,sum=0,d=0;
+        int copy=n,sum=0,d;
         while (copy>0){
             d=copy%10;
             sum=sum+(d*d*d);

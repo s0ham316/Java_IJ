@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Frank_UserMethods_Q2 {
+public class Armstrong_Check {
     public static int Armstrong(int n){
         int copy=n,sum=0,d;
         while (copy>0){

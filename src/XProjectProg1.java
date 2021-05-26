@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pronic_check {
+public class XProjectProg1 {
     public static int Pronic(int x){
         for (int p=0;p<=Math.sqrt(x);p++){
             if (x==p*(p+1)){

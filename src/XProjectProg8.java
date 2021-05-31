@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaProgram {
+public class XProjectProg8 {
     public static void main(String[] args){
         int i,j,a,b,c,n;
         Scanner scanner=new Scanner(System.in);

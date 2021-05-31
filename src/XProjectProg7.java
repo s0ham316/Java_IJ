@@ -1,4 +1,4 @@
-public class palen_sum {
+public class XProjectProg7 {
     public static void main(String[] args) {
         for (int i=100;i<=999;i++){
             double x = i+reverse(i);

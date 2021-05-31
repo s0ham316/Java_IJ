@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class series1 {
+public class XProjectProg10 {
     public static void main(String[] args){
         int x=0, n=0;
         Scanner scanner=new Scanner(System.in);

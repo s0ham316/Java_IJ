@@ -26,10 +26,10 @@ public class XProjectProg1 {
             int d=Pronic(num);
             //Checking The Indicator returned and printing the results appropriately
             if (d==0){
-                System.out.println("It is a Pronic Number");
+                System.out.println("Pronic Number");
             }
             else if (d==1){
-                System.out.println("It is not a Pronic Number");
+                System.out.println("Not a Pronic Number");
             }
         }
     }

@@ -18,7 +18,7 @@ public class XProjectProg10 {
         //Declaring and Initializing variables as per our needs
         double marker=1,d=0,m=0;
         for (int i=1;i<=n;i++){
-            //Generating and Printing each term and generating their sum
+            //Generating and Printing each term and their total sum
             //Calling Factorial Method to get the factorial
             m=(Math.pow(x,i)/factorial(i))*marker;
             System.out.println(m);

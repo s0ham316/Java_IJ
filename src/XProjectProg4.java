@@ -10,11 +10,11 @@ public class XProjectProg4 {
         num=scanner.nextInt();
         //Generating a Copy of the number for future use
         numCopy=num;
-        //The While-Loop Block below generates the sum of all prime factors of the number excluding 1
+        //The While-Loop Block below generates the sum of all prime factors of the number
         while (fact<=num) {
             //When the number is divisible by the factorial, this if-else block runs
             if (num%fact==0){
-                //The If-Block below generates the digit sum of the prime factors if they are double digit or more
+                //The If-Block below generates the digit sum of prime factors
                 if (fact>9){
                     digSum=0;
                     factCopy=fact;
@@ -25,7 +25,7 @@ public class XProjectProg4 {
                     }
                     factSum=factSum+digSum;
                 }
-                //For Single Digit Factors the else block simply adds it to the old value of the variable generating sum
+                //For Single Digit Factors this block just adds Factors
                 else {
                     factSum=factSum+fact;
                 }

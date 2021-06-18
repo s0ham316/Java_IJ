@@ -14,35 +14,35 @@ public class XProjectProg12 {
         System.out.println("Enter 0 to Exit");
         //Taking User's Choice as Input
         choice=scanner.nextInt();
-        //Switch Case Block performs appropriate functions as per the case
+        //Switch Case Block performs appropriate functions
         switch (choice){
             case 0:
                 //Case 0 for Option 0 in Menu operates
                 System.exit(0);
                 break;
             case 1:
-                //Case 1 for Option 1 in Menu operates
+                //Case 1 for Option 1 in Menu
                 System.out.println("Enter Temperature in Celsius");
                 double cel=scanner.nextDouble();
                 double fahr=(cel*1.8)+32;
                 System.out.println("Temperature In Fahrenheit = "+fahr);
                 break;
             case 2:
-                //Case 2 for Option 2 in Menu operates
+                //Case 2 for Option 2 in Menu
                 System.out.println("Enter Temperature in Celsius");
                 double cel2=scanner.nextDouble();
                 double kel=cel2+273.15;
                 System.out.println("Temperature in Kelvin = "+kel);
                 break;
             case 3:
-                //Case 3 for Option 3 in Menu operates
+                //Case 3 for Option 3 in Menu
                 System.out.println("Enter Temperature in Fahrenheit");
                 double fahr2=scanner.nextDouble();
                 double cel3=(fahr2-32)*0.56;
                 System.out.println("Temperature in Celsius = "+cel3);
                 break;
             case 4:
-                //Case 4 for Option 4 in Menu operates
+                //Case 4 for Option 4 in Menu
                 System.out.println("Enter Temperature in Kelvin");
                 double kel2=scanner.nextDouble();
                 double cel4=kel2-273.15;

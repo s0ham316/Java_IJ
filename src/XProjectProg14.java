@@ -6,7 +6,7 @@ public class XProjectProg14 {
         //Declaration and Initialization of Variables
         int a=0,b=1,c=0,term=0;
         System.out.println("Enter The Number of Terms");
-        //Taking the Number of Terms as input
+        //Taking Number of Terms as input
         term=scanner.nextInt();
         //Printing first 2 terms externally to avoid complications
         System.out.print(a+" "+b+" ");

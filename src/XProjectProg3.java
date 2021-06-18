@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class XProjectProg3 {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
-        //Declaration of Variables and initialization of some as required.
+        //Declaration of Variables and Initializations as needed.
         double n,flag=1.0,s=0.0;
         System.out.println("Enter The Value of x");
         //Taking the value of 'x' as input.

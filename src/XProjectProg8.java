@@ -5,21 +5,21 @@ public class XProjectProg8 {
         //Declaration of variables
         int i,j,a,b,c,n;
         Scanner scanner=new Scanner(System.in);
-        //Taking terms of fibonacci series as input
+        //Taking number of terms as Input
         n=scanner.nextInt();
-        //This For-Loop Block generates the triangular pattern of the fibonacci series
+        //This For-Loop Block generates the pattern
         for (i=1;i<=n;i++){
-            //The initializations done here help to generate the fibonacci series for every row
+            //The initializations done here help to generate series
             a=1;
             b=0;
-            //This inner loop block generates fibonacci series of each row
+            //This inner loop block generates fibonacci series for each row
             for (j=1;j<=i;j++){
                 c=a+b;
                 System.out.print(c);
                 a=b;
                 b=c;
             }
-            //This is just to move the cursor to the beginning of a new line to form a pattern
+            //This is just to move the cursor to the next line
             System.out.println();
         }
     }

@@ -11,7 +11,7 @@ public class XProjectProg13 {
             sum+=number;
             System.out.println("Enter a Number");
             number=scanner.nextInt();
-        } while (number>=0);//The while-statement checks if the number entered is positive(or zero) or negative
+        } while (number>=0);//This while statement checks if number entered is positive or zero
         //Printing Sum of All Positive Numbers
         System.out.println("Sum of Positive Numbers = "+sum);
     }

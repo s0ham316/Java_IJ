@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class XProjectProg2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //Declaration of Variables and initialization of some as required.
+        //Declaration of Variables and Initialization as required
         int row, k = 1;
         System.out.println("Enter the Number of Stars per edge of the diamond");
         //Taking the Number of Stars as Input
         row = scanner.nextInt();
-        //The For-Loop Block below generates the upper flank of the diamond
+        //The For-Loop Block below generates the upper flank of diamond
         for (int i = 1; i <= row; i++) {
-            //This inner For-Loop Block makes appropriate spacings before the top left stars to make a proper pattern
+            //The following For-Loop Block creates spacings before top left stars
             for (int j = row; j > i; j--) {
                 System.out.print(" ");
             }
@@ -27,7 +27,7 @@ public class XProjectProg2 {
             //This is just to put the control to the beginning of the next line and the loop goes on.
             System.out.println();
         }
-        //The value of 'k' variable is altered as per our needs to reuse it to generate the bottom flank of diamond pattern
+        //The value of 'k' variable is altered as per our needs to reuse it to generate the bottom flank of pattern
         k=k-4;
         for (int i2 = 2; i2 <= row; i2++) {
             //To generate spaces before the left stars of the bottom flank
@@ -45,7 +45,7 @@ public class XProjectProg2 {
             if (i2!=row) {
                 System.out.print("*");
             }
-            //Like previously this is to move the control to the beginning of the next line and the loop continues
+            //This is again used to move the cursor to the beginning of next line
             System.out.println();
         }
     }

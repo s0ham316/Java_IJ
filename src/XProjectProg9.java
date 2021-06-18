@@ -7,9 +7,9 @@ public class XProjectProg9 {
         //Declaration and initializations of variables
         int i=1,j=1,n=0,nc=0;
         n=scanner.nextInt();
-        //updating 'nc' variable by making it a copy of n, which is number of rows, for further use
+        //updating 'nc' variable by making it a copy of n
         nc=n;
-        //This loop generates the top flank of the pattern using the copy of 'n' variable i.e. 'nc'
+        //This loop generates the top flank of pattern
         for(;i<=n;i++){
             for (j=1;j<=nc;j++){
                 System.out.print(j);
@@ -17,7 +17,7 @@ public class XProjectProg9 {
             nc=nc-1;
             System.out.println();
         }
-        //This loop generates the bottom flank of the pattern using 'n' variable
+        //This loop generates bottom flank
         for (i=2;i<=n;i++){
             for (j=1;j<=i;j++){
                 System.out.print(j);

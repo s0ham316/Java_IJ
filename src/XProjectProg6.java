@@ -14,7 +14,7 @@ public class XProjectProg6 {
         //Printing the result
         System.out.println("Power = "+ power);
     }
-    //Method 'power' for calculating number raised to the exponent
+    //Method 'power' for calculation
     public static double power(double a, double b){
         double i=1, x=1;
         //This if-block executes only for negative exponents

@@ -8,7 +8,7 @@ public class XProjectProg17 {
             if (n%i==0)
                 s=s+i;
         }
-        //Returning True or False if the condition for perfect number is satisfied
+        //Returning True or False according to the result
         return s == n;
     }
     public static void main(String[] args){

@@ -16,6 +16,7 @@ public class XProjectProg23 {
             //Printing each term of series
             System.out.print(term+" ");
         }
+        System.out.println();
         //Printing sum of entire series
         System.out.println("Sum of Series = "+sum);
     }

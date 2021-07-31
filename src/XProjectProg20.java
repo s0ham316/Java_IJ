@@ -8,9 +8,9 @@ public class XProjectProg20 {
         System.out.println("Enter The Number");
         //Taking Number as Input
         num=scanner.nextInt();
-        //Creating and Initializing 'numc' variable as copy of 'num' variable
+        //Creating and Initializing 'numc' variable
         int numc=num;
-        //This loop generates the sum of the factorial of each digit of number
+        //This loop generates the sum of the factorial of each digit
         while (numc>0){
             a=numc%10;
             //Using 'factorial' method to get the factorial of each digit and add it to 's'
@@ -27,7 +27,7 @@ public class XProjectProg20 {
             System.out.println("Not Krishnamurthy Number");
         }
     }
-    //Factorial Method which returns the factorial of number passed to it
+    //Factorial Method which returns the factorial of number
     public static int factorial(int n){
         int i,f=1;
         for (i=1;i<=n;i++) {

@@ -26,10 +26,10 @@ public class XProjectProg16 {
         b=scanner.nextInt();
         boolean f;
         for (;a<=b;a++){
-            //Calling isNarcissistic method to check for Narcissistic Number
+            //Calling isNarcissistic method to check for Narcissistic Number in the given range
             f=isNarcissistic(a);
             if (f){
-                //Printing each narcissistic number in the given range
+                //Printing each narcissistic number in range
                 System.out.print(" " + a);
             }
         }

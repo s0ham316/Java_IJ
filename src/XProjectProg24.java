@@ -14,7 +14,7 @@ public class XProjectProg24 {
         for (double i=0.0;i<n;i++){
             //Generating each term of the series
             double t=i+1.0;
-            //Adding the term to the 'sum' variable to print sum of series later
+            //Adding the term to the 'sum' variable to generate sum
             sum=sum+(i*x+t)/factorial(t);
         }
         //Printing Sum of The Series
